@@ -15,7 +15,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:3000")
 public class ApplicationController {
     @Autowired
     private ApplicationService applicationService;
